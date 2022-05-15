@@ -88,3 +88,19 @@ ufw enable:
 
 ---------------------
 
+Now we should have all the necessary base work done and one can move on to see what our salt state looks like and does it work?
+
+
+## Salt state - init.sls
+
+
+
+
+
+
+
+
+
+Lets test our salt state! 
+![image](/.attachments/af06dd37017a1131bd1f54d41abd0770994bf9e7.png)
+All pkg.installed works. Because they were not installed salt installed them.
