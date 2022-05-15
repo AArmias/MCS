@@ -125,4 +125,4 @@ So everything should work in salt state, all that's left is to try the server it
 ![image](/.attachments/fd259946c462d40e9d02d34b769ae043e6265453.png)
 ![image](/.attachments/f2e50820311da67f3ef7e961e799b4f283cc47ab.png)
 
-
+![image](/.attachments/32733eef6fbf816859c526f22ff52b94288776e8.png)
