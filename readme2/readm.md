@@ -122,5 +122,7 @@ So everything should work in salt state, all that's left is to try the server it
 -------------
 
 ## Server
+![image](/.attachments/fd259946c462d40e9d02d34b769ae043e6265453.png)
+![image](/.attachments/f2e50820311da67f3ef7e961e799b4f283cc47ab.png)
 
 
