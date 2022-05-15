@@ -100,7 +100,6 @@ This is what it looks like now. Salt state which downloads the necessary program
 
 
 
-
 Lets test our salt state! 
 ![image](/.attachments/af06dd37017a1131bd1f54d41abd0770994bf9e7.png)
 All pkg.installed functions works. Because they were not installed salt installed them.
