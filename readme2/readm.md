@@ -92,8 +92,8 @@ Now we should have all the necessary base work done and one can move on to see w
 
 
 ## Salt state - init.sls
-
-
+This is what it looks like now. Salt state which downloads the necessary programs, installs them, loads the server.jar file, creates an eula.txt file and changes the ufw settings.
+![](https://cdn.discordapp.com/attachments/784040982043295814/975466582316834946/unknown.png)
 
 
 
@@ -123,6 +123,13 @@ So everything should work in salt state, all that's left is to try the server it
 
 ## Server
 ![image](/.attachments/fd259946c462d40e9d02d34b769ae043e6265453.png)
+So server is started and running
 ![image](/.attachments/f2e50820311da67f3ef7e961e799b4f283cc47ab.png)
 
+
+I also started the server using the graphical user interface.
 ![image](/.attachments/32733eef6fbf816859c526f22ff52b94288776e8.png)
+
+## The end
+
+Unfortunately, even if I get the server to run and stay running it stays there. I don't own that game, and I'm not going to pay 26 euros for it because of the course. So in order for the server to be able to join and play, there would be even more adjustments to be made. However, setting up a server was a good exercise for myself and I learned a lot from it. At the same time, I think I was able to create a successful module.
