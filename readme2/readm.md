@@ -104,3 +104,8 @@ Now we should have all the necessary base work done and one can move on to see w
 Lets test our salt state! 
 ![image](/.attachments/af06dd37017a1131bd1f54d41abd0770994bf9e7.png)
 All pkg.installed functions works. Because they were not installed salt installed them.
+![image](/.attachments/bef879f12705f3c2090ffd1f099ce3143f5ecb3c.png)
+server.jar downloaded successfully and the eula.txt file was created correctly.
+![image](/.attachments/efeecc2256e8d47178085fd588e45deb303e8927.png)
+
+
