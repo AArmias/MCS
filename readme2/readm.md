@@ -109,3 +109,5 @@ Server.jar downloaded successfully and the eula.txt file was created correctly.
 ![image](/.attachments/efeecc2256e8d47178085fd588e45deb303e8927.png)
 Ufw changes were successful and ufw is on. It took almost 40 seconds due to downloads and installations. Now, however, everything should be ready!
 
+Let's try again and see if there will be idempotence or if there are problems in the salt state.
+
