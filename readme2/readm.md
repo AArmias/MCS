@@ -110,4 +110,10 @@ Server.jar downloaded successfully and the eula.txt file was created correctly.
 Ufw changes were successful and ufw is on. It took almost 40 seconds due to downloads and installations. Now, however, everything should be ready!
 
 Let's try again and see if there will be idempotence or if there are problems in the salt state.
-
+![image](/.attachments/309b973ea42ed2383fe92a2edc7000aad309099c.png)
+Again, all functions work. The programs were installed in the previous run of the salt state, so now minion don't have to touch them and can move on.
+![image](/.attachments/5c6642cc5d657372bea7a8bd65390a927dc5272c.png)
+Since server.jar is already downloaded, the minion is understood that the file does not need to be reloaded. Similar to the eula.txt file, the file exists. No need to make new ones.
+![image](/.attachments/e9d6ba7458f76c0dbeba2dc507e1e81596366a1a.png)
+  
+Also, the change that was made to ufw has been noticed and does not need to be made again. ufw is also confirmed to be on.
