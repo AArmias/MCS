@@ -116,4 +116,11 @@ Again, all functions work. The programs were installed in the previous run of th
 Since server.jar is already downloaded, the minion is understood that the file does not need to be reloaded. Similar to the eula.txt file, the file exists. No need to make new ones.
 ![image](/.attachments/e9d6ba7458f76c0dbeba2dc507e1e81596366a1a.png)
   
-Also, the change that was made to ufw has been noticed and does not need to be made again. ufw is also confirmed to be on.
+Also, the change that was made to ufw has been noticed and does not need to be made again. ufw is also confirmed to be on. 
+So everything should work in salt state, all that's left is to try the server itself, will it work? Is it going to work?
+
+-------------
+
+## Server
+
+
