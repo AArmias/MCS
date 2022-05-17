@@ -60,7 +60,7 @@ download server file:
     - name: curl https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar --output /srv/salt/MCS/server.jar
     - creates: /srv/salt/MCS/server.jar
 ```
-`curl` command loads `server.jar` from that path. The `--output` option specifies the path and file name. In this case, the file is uploaded to the `/srv/salt/MCS/` folder named `server.jar`. The file path is from the official Minecraft websites.
+`curl` command loads `server.jar` from that path. The `--output` option specifies the path and file name. In this case, the file is uploaded to the `/srv/salt/MCS/` folder `server.jar`. The file path is from the official Minecraft websites.
 
 -------------------------
 Next, we need to create an **End User License Agreement** = `EULA` approval. So let's tell salt to make a file called `eula.txt` and the contents of the file: `eula = true` (without this the server will not start.)
@@ -88,7 +88,7 @@ ufw enable:
 
 ---------------------
 
-Now we should have all the necessary base work done and one can move on to see what our salt state looks like and does it work?
+Now we should have all the necessary base work done and one can move on to see what our salt state looks like and does it work.
 
 
 ## Salt state - init.sls
