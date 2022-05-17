@@ -117,7 +117,7 @@ Since server.jar is already downloaded, the minion is understood that the file d
 ![image](/.attachments/e9d6ba7458f76c0dbeba2dc507e1e81596366a1a.png)
   
 Also, the change that was made to ufw has been noticed and does not need to be made again. ufw is also confirmed to be on. 
-So everything should work in salt state, all that's left is to try the server itself, will it work? Is it going to work?
+So everything should work in salt state, all that's left is to try the server itself, will it work.
 
 -------------
 
