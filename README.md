@@ -148,4 +148,13 @@ Unfortunately, even if I get the server to run and stay running it stays there. 
 
 
 
+Sources:
 
+- MinecraftWiki: Tutorials/Setting up a server. https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server
+- Pezet, Don 2021: How to install a Minecraft Server on Linux - Ubuntu. https://www.youtube.com/watch?v=Yxi_If6JGTQ
+- DOWNLOAD THE MINECRAFT: JAVA EDITION SERVER. https://www.minecraft.net/en-us/download/server
+- CURL: Command line tool and library for transferring data with URLs. https://curl.se/
+- Byobu. https://www.byobu.org/
+- Karvinen, Tero 2020: Command Line Basics Revisited. [https://terokarvinen.com/2020/command-line-basics-revisited/](https://terokarvinen.com/2020/command-line-basics-revisited/)
+- SaltStack 2016: Functions. ([https://docs.saltproject.io/en/getstarted/config/functions.html](https://docs.saltproject.io/en/getstarted/config/functions.html))
+- Karvinen, Tero 2022: Configuration management systems 2022. [https://terokarvinen.com/2021/configuration-management-systems-2022-spring/](https://terokarvinen.com/2021/configuration-management-systems-2022-spring/)
