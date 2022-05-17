@@ -122,6 +122,18 @@ So everything should work in salt state, all that's left is to try the server it
 -------------
 
 ## Server
+Lets try to start the server with the following command:
+```
+sudo java -Xms1024M -Xmx1024M -jar /srv/salt/MCS/server.jar --nogui
+```
+Java options should be added between the `java` and the `-jar`.
+`-Xms` (the initial memory size).
+`-Xmx` sets how much memory the server is allowed to use.
+`/srv/salt/MCS/server.jar` is the server location and file.
+`--nogui` Doesn't open the GUI when launching the server.
+You can also set other parameters at the start command, more instructions can be found at this link:
+https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server
+
 ![image](/.attachments/fd259946c462d40e9d02d34b769ae043e6265453.png)
 So server is started and running
 ![image](/.attachments/f2e50820311da67f3ef7e961e799b4f283cc47ab.png)
@@ -132,7 +144,7 @@ I also started the server using the graphical user interface.
 
 ## The end
 
-Unfortunately, even if I get the server to run and stay running it stays there. I don't own that game, and I'm not going to pay 26 euros for it because of the course. So in order for the server to be able to join and play, there would be even more adjustments to be made. However, setting up a server was a good exercise for myself and I learned a lot from it. At the same time, I think I was able to create a successful module.
+Unfortunately, even if I get the server to run and stay running it stays there. The biggest problems accessing the server can be found between the virtual machine -> windows and the windows -> router. In order to be able to access the server running on the virtual machine, a port forward should be created throughout the whole line. Because microsoft has made it impossible to download the trial version of the game (watch reviews from microsoft market), I'll leave the adjustment to this point. I don't own that game, and I'm not going to pay 26 euros for it because of the course. So in order for the server to be able to join and play, there would be even more adjustments still to be made. However, setting up a server was a good exercise for myself and I learned a lot from it. At the same time, I think I was able to create a successful module.
 
 
 
