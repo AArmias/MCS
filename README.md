@@ -142,13 +142,24 @@ So server is started and running
 I also started the server using the graphical user interface.
 ![image](/.attachments/32733eef6fbf816859c526f22ff52b94288776e8.png)
 
+--------------------
+
+### Starting server with byobu
+
+Command `byobu` will start byobu shell and `F6` close, but applications running in the byobu shell remain on in the background. `F12` will close shell and the applications. So when you start byobun and the server there you can switch from the F6 button back to the normal shell and the server will run in the background. You can return by typing byobu again. The byobun shell is different enough to distinguish it from a normal shell.
+![image](/.attachments/971be9af690739f92b1bb310c2d2cb0f0d6eba2a.png)
+and when you press `F6` it shows it like this: 
+![image](/.attachments/c774f3ae35e7343eb35c98e8e9345697eeb76712.png)
+
+-------------------
+
 ## The end
 
 Unfortunately, even if I get the server to run and stay running it stays there. The biggest problems accessing the server can be found between the virtual machine -> windows and the windows -> router. In order to be able to access the server running on the virtual machine, a port forward should be created throughout the whole line. Because microsoft has made it impossible to download the trial version of the game (watch reviews from microsoft market), I'll leave the adjustment to this point. I don't own that game, and I'm not going to pay 26 euros for it because of the course. So in order for the server to be able to join and play, there would be even more adjustments still to be made. However, setting up a server was a good exercise for myself and I learned a lot from it. At the same time, I think I was able to create a successful module.
 
+--------------------
 
-
-Sources:
+### Sources:
 
 - MinecraftWiki: Tutorials/Setting up a server. https://minecraft.fandom.com/wiki/Tutorials/Setting_up_a_server
 - Pezet, Don 2021: How to install a Minecraft Server on Linux - Ubuntu. https://www.youtube.com/watch?v=Yxi_If6JGTQ
