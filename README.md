@@ -30,7 +30,7 @@ So we need to have **Openjdk** version **18** installed (I tried version 16, it 
 
 In addition to this, we need **Curl** in order to upload the Minecraft server file.
 
-+ extra: We download **Byobu**, so we can run the server in byobu and the shell is still available at the same time.
++ extra: We download **Byobu**, with Byobu we can make an extra shell window to start the server. For this reason, we can use shell normally even when the server is running. Otherwise, the server would use shell itself until we shut it down. 
 
 All of these we find using the Advanced Packaging Tool - APT
 
