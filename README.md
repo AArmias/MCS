@@ -11,7 +11,7 @@ The test, installation and "project" has been done with **Ubuntu 21.10**, which 
 
 ### Preparation: 
 Before this project I have already installed a salt master and a salt minion called Teronapuri (Teroshelper).
-I made directory for project `/srv/salt/MCS` so this is where all the files go. I also made `init.sls` (salt state file) there. So if you want try this project make that directory and copy my init.sls there. 
+I made directory for project `/srv/salt/MCS` so this is where all the files go. I also made `init.sls` (salt state file) there. So if you want to try this project make that directory and copy my init.sls there. 
 
 You need:
 1. salt master/minion
