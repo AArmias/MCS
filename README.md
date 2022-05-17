@@ -52,7 +52,7 @@ install curl:
 
 -----------------------
 
-The foundation has now been laid. We have java support, we have curl and we have byobu. Next, we download the Minecraft server file itself. The file could either be downloaded using a browser or, as in this case, using salt.
+The foundation has now been done. We have java support, we have curl and we have byobu. Next, we download the Minecraft server file itself. The file could either be downloaded using a browser or, as in this case, using salt.
 
 ```
 download server file: 
