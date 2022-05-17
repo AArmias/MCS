@@ -3,7 +3,7 @@
 In this project a Minecraft server is installed to ubuntu by using salt state. This is the school project and the final work of the course.
 
 In the course we have learned how to use salt state. Personally, I have had to learn more. Before the course I didn't know how to use Linux or salt.
-Therefore, my starting points were not good. However in doing this task, I found myself understanding several things I didn’t know before the course began. I also learned to use several different salt state commands. The hardest part was coming up with a suitable topic for my work. I went through several different options and ran into problems at the beginning. For example, Obs-studio does not work through the VirtualBox that was originally intended to be installed. Eventually, I came up with a topic and spent several hours preparing to browse related videos and articles on the internet. I try to gather all possible information to make the installation a success and the server up and running.
+Therefore, my starting points were not good. However doing this task, I found myself understanding several things I didn’t know before the course began. I also learned to use several different salt state commands. The hardest part was coming up with a suitable topic for my work. I went through several different options and ran into problems at the beginning. For example, Obs-studio does not work through the VirtualBox that was originally intended to be installed. Eventually, I came up with a topic and spent several hours preparing to browse related videos and articles on the internet. I try to gather all possible information to make the installation a success and the server up and running.
 
 ----------
 
