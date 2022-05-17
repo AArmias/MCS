@@ -168,4 +168,5 @@ Unfortunately, even if I get the server to run and stay running it stays there. 
 - Byobu. https://www.byobu.org/
 - Karvinen, Tero 2020: Command Line Basics Revisited. [https://terokarvinen.com/2020/command-line-basics-revisited/](https://terokarvinen.com/2020/command-line-basics-revisited/)
 - SaltStack 2016: Functions. ([https://docs.saltproject.io/en/getstarted/config/functions.html](https://docs.saltproject.io/en/getstarted/config/functions.html))
+- SaltStack 2016: Manage Files. https://docs.saltproject.io/en/getstarted/config/files.html
 - Karvinen, Tero 2022: Configuration management systems 2022. [https://terokarvinen.com/2021/configuration-management-systems-2022-spring/](https://terokarvinen.com/2021/configuration-management-systems-2022-spring/)
